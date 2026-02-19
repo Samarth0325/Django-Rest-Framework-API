@@ -1,47 +1,56 @@
 # Django-Rest-Framework-API
 "Beginner Django REST Framework API project"
+<br>
 
 #Django REST Framework – API Project
+<br>
 
 This is a beginner-friendly Django REST Framework (DRF) project that demonstrates how to build RESTful APIs using DefaultRouter and ViewSets.
+<br>
 
 The project exposes APIs for managing Users and Groups and includes Django Admin for backend management.
+<br>
 
 🚀 Features
-
-1.Django REST Framework integration
-2.DefaultRouter with API Root
-3.User & Group APIs
-4.Browsable REST API
-5.JSON & HTML renderers
-6.Django Admin Panel
+<br>
+1.Django REST Framework integration<br>
+2.DefaultRouter with API Root <br>
+3.User & Group APIs <br>
+4.Browsable REST API <br>
+5.JSON & HTML renderers <br>
+6.Django Admin Panel <br>
 7.Clean project structure
+<br>
 
 🛠 Tech Stack
-
-1.Python 3.11
-2.Django
-3.Django REST Framework
+<br>
+1.Python 3.11<br>
+2.Django<br>
+3.Django REST Framework<br>
 4.SQLite (default database)
+<br>
 
 📂 Project Structure
+<br>
 Django-RestFramework/
-│
-├── tutorial/        # Main project settings
-├── quickstart/      # API app (ViewSets, Serializers)
-├── manage.py
-└── requirements.txt
+│<br>
+├── tutorial/ <br>      
+├── quickstart/ <br> 
+├── manage.py <br>
+└── requirements.txt<br>
 
-🔗 API Endpoints
-Endpoint	Description
-/	API Root
-/users/	List & create users
-/users/<id>/	Retrieve, update, delete user
-/groups/	List & create groups
-/groups/<id>/	Retrieve, update, delete group
-/admin/	Django Admin Panel
+🔗 API Endpoints<br>
 
-▶️ How to Run the Project
+Endpoint	Description <br>
+
+/	API Root<br>
+/users/	List & create users<br>
+/users/<id>/	Retrieve, update, delete user<br>
+/groups/	List & create groups<br>
+/groups/<id>/	Retrieve, update, delete group<br>
+/admin/	Django Admin Panel<br>
+
+▶️ How to Run the Project<br>
 
 1.Clone the repository:-
 
@@ -74,30 +83,31 @@ http://127.0.0.1:8000/
 
 http://127.0.0.1:8000/admin/
 
-📸 API Root Output
-{
-  "name": "Api Root",
-  "description": "The default basic root view for DefaultRouter"
+📸 API Root Output<br>
+{<br>
+  "name": "Api Root",<br>
+  "description": "The default basic root view for DefaultRouter"<br>
 }
+<br>
 
 📌 Learning Outcome
-
-#Understood Django REST Framework basics
-#Implemented ViewSets and Routers
-#Built RESTful APIs
-#Worked with Django Admin
-#Learned API Root & Browsable API
+<br>
+#Understood Django REST Framework basics <br>
+#Implemented ViewSets and Routers <br>
+#Built RESTful APIs <br>
+#Worked with Django Admin <br>
+#Learned API Root & Browsable API <br>
 
 👨‍💻 Author
-
-Samarth Deshmukhe
+<br>
+Samarth Deshmukhe <br>
 B.Tech in Artificial Intelligence & Machine Learning
 
-⭐ Future Enhancements
+⭐ Future Enhancements <br>
 
-JWT Authentication
-Permissions & Roles
-Custom User Model
-PostgreSQL integration
+JWT Authentication <br>
+Permissions & Roles <br>
+Custom User Model <br>
+PostgreSQL integration <br>
 API documentation using Swagger
 
