@@ -15,6 +15,6 @@ class UserViewset(viewsets.ModelViewSet):
 class GroupViewset(viewsets.ModelViewSet):
     #API endpoint that allow groups to be viewed or edited.
     
-    queryset = User.objects.all()   #Date_Joined
+    queryset = Group.objects.all()   #Date_Joined
     serializer_class = GroupSerializer
     permission_classes = [permissions.IsAuthenticated]    
