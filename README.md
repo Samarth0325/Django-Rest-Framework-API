@@ -10,6 +10,7 @@ This is a beginner-friendly Django REST Framework (DRF) project that demonstrate
 
 The project exposes APIs for managing Users and Groups and includes Django Admin for backend management.
 <br>
+
 🚀 Features
 <br>
 1.Django REST Framework integration<br>
@@ -31,8 +32,8 @@ The project exposes APIs for managing Users and Groups and includes Django Admin
 <br>
 Django-RestFramework/<br>
 │<br>
-├── tutorial/ <br>       # Main project settings
-├── quickstart/ <br>     # API app (ViewSets, Serializers)
+├── tutorial/ <br>      
+├── quickstart/ <br> 
 ├── manage.py<br>
 └── requirements.txt<br>
 
