@@ -21,6 +21,7 @@ The project exposes APIs for managing Users and Groups and includes Django Admin
 6.Django Admin Panel <br>
 7.Clean project structure
 <br>
+
 🛠 Tech Stack
 <br>
 1.Python 3.11<br>
@@ -28,13 +29,14 @@ The project exposes APIs for managing Users and Groups and includes Django Admin
 3.Django REST Framework<br>
 4.SQLite (default database)
 <br>
+
 📂 Project Structure
 <br>
-Django-RestFramework/<br>
+Django-RestFramework/
 │<br>
 ├── tutorial/ <br>      
 ├── quickstart/ <br> 
-├── manage.py<br>
+├── manage.py <br>
 └── requirements.txt<br>
 
 🔗 API Endpoints<br>
@@ -87,6 +89,7 @@ http://127.0.0.1:8000/admin/
   "description": "The default basic root view for DefaultRouter"<br>
 }
 <br>
+
 📌 Learning Outcome
 <br>
 #Understood Django REST Framework basics <br>
